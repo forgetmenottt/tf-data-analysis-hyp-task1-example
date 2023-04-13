@@ -33,7 +33,7 @@ def solution(x_success: int,
  
  
     if (p_value < alpha):
-        a = True
-    else:
         a = False
+    else:
+        a = True
     return a # Ваш ответ, True или False
